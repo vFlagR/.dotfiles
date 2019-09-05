@@ -10,3 +10,5 @@ source ~/.dotfiles/zsh/alias.zsh
 
 # Load Environment Variables
 source ~/.dotfiles/zsh/env.zsh
+
+eval "$(starship init zsh)"
