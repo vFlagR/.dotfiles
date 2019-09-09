@@ -1,6 +1,10 @@
+# Fixes compdef not found error
+autoload -Uz compinit
+compinit -i
+
 # Load plugins generated from ~/.dotfiles/zsh/plugins.txt
-source <(antibody init)
-antibody bundle < ~/.dotfiles/zsh/plugins.txt
+antibody bundle < ~/.dotfiles/zsh/plugins.txt > ~/.zsh_plugins.sh
+source ~/.zsh_plugins.sh
 
 # Load ZSH specific functions
 source ~/.dotfiles/zsh/functions/functions.zsh
