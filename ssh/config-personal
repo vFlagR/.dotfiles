@@ -6,4 +6,4 @@ Host github.com
 Host golang
 	HostName golang
 	User root
-	IdentityFile ~/.ssh/keys/personal/keys/hetzner_rsa
+	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
