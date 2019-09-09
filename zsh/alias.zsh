@@ -18,3 +18,6 @@ alias ll="colorls -al"
 
 # Ssh Alias'
 alias ssg="ssh golang"
+
+# Make awsp work
+alias awsp="source _awsp"

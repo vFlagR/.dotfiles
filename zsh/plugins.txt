@@ -10,3 +10,4 @@ djui/alias-tips
 Cloudstek/zsh-plugin-appup
 nocttuam/autodotenv
 desyncr/zsh-icdiff
+denysdovhan/spaceship-prompt

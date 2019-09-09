@@ -5,10 +5,11 @@ antibody bundle < ~/.dotfiles/zsh/plugins.txt
 # Load ZSH specific functions
 source ~/.dotfiles/zsh/functions/functions.zsh
 
+# Load Prompt customizations
+source ~/.dotfiles/zsh/starship/custom.txt
+
 # Load Aliases
 source ~/.dotfiles/zsh/alias.zsh
 
 # Load Environment Variables
 source ~/.dotfiles/zsh/env.zsh
-
-eval "$(starship init zsh)"
