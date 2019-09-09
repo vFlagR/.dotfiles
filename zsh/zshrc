@@ -2,18 +2,24 @@
 autoload -Uz compinit
 compinit -i
 
-# Load plugins generated from ~/.dotfiles/zsh/plugins.txt
-antibody bundle < ~/.dotfiles/zsh/plugins.txt > ~/.zsh_plugins.sh
+# Load Zshrc specific flags
+source ~/.dotfiles/zsh/config/flags.zsh
+
+# Load plugins generated from ~/.dotfiles/zsh/config/plugins.txt
+antibody bundle < ~/.dotfiles/zsh/config/plugins.txt > ~/.zsh_plugins.sh
 source ~/.zsh_plugins.sh
 
 # Load ZSH specific functions
-source ~/.dotfiles/zsh/functions/functions.zsh
+source ~/.dotfiles/zsh/config/functions.zsh
+
+# Load Custom Keybinds
+source ~/.dotfiles/zsh/config/keybinds.zsh
 
 # Load Prompt customizations
-source ~/.dotfiles/zsh/starship/custom.txt
+source ~/.dotfiles/zsh/config/starship/custom.txt
 
 # Load Aliases
-source ~/.dotfiles/zsh/alias.zsh
+source ~/.dotfiles/zsh/config/alias.zsh
 
 # Load Environment Variables
-source ~/.dotfiles/zsh/env.zsh
+source ~/.dotfiles/zsh/config/env.zsh

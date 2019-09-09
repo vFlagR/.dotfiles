@@ -12,3 +12,7 @@ desyncr/zsh-icdiff
 denysdovhan/spaceship-prompt
 Tarrasch/zsh-bd
 zpm-zsh/colorize
+rummik/zsh-ing
+zpm-zsh/template
+junegunn/fzf
+robertzk/send.zsh

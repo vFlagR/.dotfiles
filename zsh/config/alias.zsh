@@ -1,7 +1,7 @@
 # Edit files alias'
 alias ezsh="vim ~/.dotfiles/zsh/zshrc"
-alias ealias="vim ~/.dotfiles/zsh/alias.zsh"
-alias eplugins="vim ~/.dotfiles/zsh/plugins.txt"
+alias ealias="vim ~/.dotfiles/zsh/config/alias.zsh"
+alias eplugins="vim ~/.dotfiles/zsh/config/plugins.txt"
 
 # Source file alias'
 alias szsh="source ~/.dotfiles/zsh/zshrc"
@@ -21,3 +21,6 @@ alias ssg="ssh golang"
 
 # Make awsp work
 alias awsp="source _awsp"
+
+# Program overrides
+alias cat="bat"
