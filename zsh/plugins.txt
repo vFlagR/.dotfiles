@@ -9,3 +9,4 @@ zsh-users/zsh-syntax-highlighting
 djui/alias-tips
 Cloudstek/zsh-plugin-appup
 nocttuam/autodotenv
+desyncr/zsh-icdiff

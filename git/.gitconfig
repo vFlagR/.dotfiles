@@ -1,0 +1,11 @@
+[includeIf "gitdir:~/data/work/"]
+    path = .gitconfig-work
+[includeIf "gitdir:~/data/personal/"]
+    path = .gitconfig-personal
+
+[diff]
+  tool = icdiff
+[difftool]
+  prompt = false
+[difftool "icdiff"]
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
