@@ -11,4 +11,4 @@ nocttuam/autodotenv
 desyncr/zsh-icdiff
 denysdovhan/spaceship-prompt
 Tarrasch/zsh-bd
-adolfoabegg/browse-commit
+zpm-zsh/colorize
