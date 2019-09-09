@@ -1,0 +1,9 @@
+Host github.com
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/personal/keys/github_rsa
+
+Host golang
+  HostName golang
+  IdentityFile ~/.ssh/keys/personal/keys/hetzner_rsa
+  User root

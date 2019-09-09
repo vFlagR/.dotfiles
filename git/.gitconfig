@@ -4,3 +4,8 @@
 
 [includeIf "gitdir:~/data/work/"]
     path = .gitconfig-work
+[diff]
+	tool = icdiff
+	external = icdiff-ext-tool
+[difftool "icdiff"]
+	cmd = icdiff --line-numbers $LOCAL $REMOTE
