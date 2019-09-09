@@ -1,4 +1,4 @@
-Host gitlab.com
-	HostName gitlab.com
+Host gitlab.vtscloud.io 
+	HostName gitlab.vtscloud.io
 	User git
 	IdentityFile ~/.ssh/work/keys/gitlab_rsa
