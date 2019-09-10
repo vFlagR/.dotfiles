@@ -6,7 +6,19 @@
 - clean: ['~', "~/.config"]
 
 - link:
-     ~/.gitconfig-work: git/gitconfig-work
+    ~/.gitconfig: git/gitconfig
+    ~/.gitconfig-work: git/gitconfig-work
+    ~/.zshrc: zsh/zshrc
+    ~/.ssh/config: ssh/config
+    ~/.ssh/personal/config-personal: ssh/config-personal
+    ~/.ssh/work/config-work: ssh/config-work
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+
+     
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - ['aws s3 sync s3://kieran-dotfiles/ssh/personal/keys ~/.ssh/personal/keys/ --profile personal']
+  - ['aws s3 sync s3://kieran-dotfiles/ssh/work/keys ~/.ssh/work/keys/ --profile personal']
+  - ['chmod -R 0400 ~/.ssh/*/keys/*']
+  - ['antibody update']
