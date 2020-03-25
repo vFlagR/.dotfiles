@@ -12,9 +12,6 @@
     ~/.ssh/config: ssh/config
     ~/.ssh/personal/config-personal: ssh/config-personal
     ~/.ssh/work/config-work: ssh/config-work
-    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
-
-     
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

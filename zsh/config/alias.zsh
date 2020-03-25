@@ -11,16 +11,11 @@ alias cdot="cd ~/.dotfiles"
 alias cdata="cd ~/data"
 alias cpg="cd ~/data/personal/pgblitz"
 
-# Colorls Alias'
-alias ls="colorls"
-alias "ls -al"="colorls -al"
-alias ll="colorls -al"
-
 # Ssh Alias'
-alias ssg="ssh golang"
+alias ssgn="ssh ssh.kieranmceniff.com"
 
 # Make awsp work
 alias awsp="source _awsp"
 
 # Program overrides
-alias cat="bat"
+

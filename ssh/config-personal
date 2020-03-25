@@ -3,7 +3,7 @@ Host github.com
 	User git
 	IdentityFile ~/.ssh/personal/keys/github_rsa
 
-Host golang
-	HostName golang
+Host ssh.kieranmceniff.com
+	HostName ssh.kieranmceniff.com
 	User root
 	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
