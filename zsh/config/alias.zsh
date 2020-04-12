@@ -12,7 +12,9 @@ alias cdata="cd ~/data"
 alias cpg="cd ~/data/personal/pgblitz"
 
 # Ssh Alias'
-alias ssgn="ssh ssh.kieranmceniff.com"
+alias ssgn="ssh ssh.vflagr.com"
+alias ssga="ssh ssh.kieranmceniff.com"
+
 
 # Make awsp work
 alias awsp="source _awsp"

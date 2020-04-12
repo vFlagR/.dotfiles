@@ -7,3 +7,8 @@ Host ssh.kieranmceniff.com
 	HostName ssh.kieranmceniff.com
 	User root
 	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
+
+Host ssh.vflagr.com
+	HostName ssh.vflagr.com
+	User root
+	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
