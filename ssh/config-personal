@@ -12,3 +12,8 @@ Host ssh.vflagr.com
 	HostName ssh.vflagr.com
 	User root
 	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
+
+Host proxmox.vflagr.com
+	HostName proxmox.vflagr.com
+	User root
+	IdentityFile ~/.ssh/personal/keys/hetzner_rsa
